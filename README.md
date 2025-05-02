@@ -25,12 +25,8 @@ Usage:
 3. Run with Python 3.x
 
 Emails are automatically sent out in timed waves.
-
-To use a custom file:
-Replace the Project Gutenberg link with a local file loader
-
-SMTP Settings:
-Default uses Gmail (smtp.gmail.com, port 587). Change as needed.
+1. To use a custom file: Replace the Project Gutenberg link with a local file loader
+2. SMTP Settings: Default uses Gmail (smtp.gmail.com, port 587). Change as needed.
 
 Dependencies:
 requests

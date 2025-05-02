@@ -55,14 +55,18 @@ math
 Known Issues and Limitations:
 1. No Stop Mechanism: The script does not currently provide an in-built method for stopping or pausing the process once it's initiated. If you need to halt the execution, you will need to manually terminate the process (e.g., by pressing Ctrl + C).
 2. SMTP Provider Limitation: The script is specifically configured to work with Gmail’s SMTP server. To use a different email provider, users will need to modify the SMTP settings accordingly.
+![image](https://github.com/user-attachments/assets/3749148b-03b1-465f-b621-a956d8291b8d)
 
+__________________________________
 Disclaimer:
 This script is intended solely for educational purposes and must be used responsibly. It is strictly prohibited to use the script for pranks, harassment, or to send unsolicited emails to individuals or organizations without their consent. Any misuse of this script may result in legal consequences and violations of the terms of service of email providers, such as Gmail. Engaging in spamming or any other non-consensual activities can lead to account suspensions, blacklisting, or more severe legal actions. It is imperative to ensure that all activities conducted with this script adhere to ethical standards and comply with applicable laws and regulations. This repository and its contents are provided to demonstrate the principles of email flooding and payload delivery systems within controlled, ethical testing environments. The use of this script on live targets or for malicious purposes is strictly prohibited. Users assume full responsibility for any consequences resulting from the use of this script.
 
+![image](https://github.com/user-attachments/assets/dc982fab-30bb-4b4b-853b-19e30bb652fe)
+
 __________________________________
-Built for stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
+Built for intense stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
 Author: Gedeon Koh
 Copyright © 2025
 All rights reserved.
 
-We welcome contributions to improve the functionality and usability of this script. If you have identified bugs, security improvements, or new features, feel free to fork the repository and submit a pull request. Please ensure that all contributions follow ethical guidelines and are in line with the educational nature of the project. If you're unsure about any changes, please open an issue to discuss it first. Contributions should adhere to coding standards and include appropriate documentation for any new features or changes.
+Contributions✨: We welcome contributions to improve the functionality and usability of this script. If you have identified bugs, security improvements, or new features, feel free to fork the repository and submit a pull request. Please ensure that all contributions follow ethical guidelines and are in line with the educational nature of the project. If you're unsure about any changes, please open an issue to discuss it first. Contributions should adhere to coding standards and include appropriate documentation for any new features or changes.

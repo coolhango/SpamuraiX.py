@@ -66,6 +66,7 @@ This script is intended solely for educational purposes and must be used respons
 
 __________________________________
 Built for intense stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
+
 Author: Gedeon Koh
 Copyright © 2025
 All rights reserved.

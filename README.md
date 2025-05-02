@@ -24,11 +24,6 @@ Example Output:
 ![image](https://github.com/user-attachments/assets/edbfee39-3bad-4475-86f5-28e6f70dbd07)
 
 Usage:
-1. Clone or download the script
-2. Replace email and app password inside the code
-3. Run the code
-
-Usage:
 1. Clone or download the script: First, grab the script by either cloning the GitHub repository or downloading the .zip file.
 2. Replace email and app password inside the code: In order to authenticate with Gmail's SMTP server, you’ll need to provide a valid email address and an App Password instead of your regular Gmail password. Google requires the use of App Passwords if you have 2-Factor Authentication (2FA) enabled on your Google account. App passwords are a special type of one-time   password designed specifically for use with apps or scripts like Spamurai.py, allowing you to log in to your Google account without exposing your primary password. This adds an extra layer of security and prevents unauthorized access. If you don’t have 2FA enabled, you can use your standard Gmail password, but it’s strongly recommended to enable 2FA for added security.
 3. Run the script: Once your email and app password are configured in the script, simply run it using Python 3.x. The script will handle sending emails in batches, using the credentials you provided, while following the specified timings.
@@ -58,6 +53,9 @@ math
 
 Built for stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
 
+Disclaimer:
+This script is intended solely for educational purposes and must be used responsibly. It is strictly prohibited to use the script for pranks, harassment, or to send unsolicited emails to individuals or organizations without their consent. Any misuse of this script may result in legal consequences and violations of the terms of service of email providers, such as Gmail. Engaging in spamming or any other non-consensual activities can lead to account suspensions, blacklisting, or more severe legal actions. It is imperative to ensure that all activities conducted with this script adhere to ethical standards and comply with applicable laws and regulations. This repository and its contents are provided to demonstrate the principles of email flooding and payload delivery systems within controlled, ethical testing environments. The use of this script on live targets or for malicious purposes is strictly prohibited. Users assume full responsibility for any consequences resulting from the use of this script.
+
 Author: Gedeon Koh
-Copyright © 2024
+Copyright © 2025
 All rights reserved.

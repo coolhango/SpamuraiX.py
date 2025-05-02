@@ -19,6 +19,10 @@ Example Output:
   To: officialdailydoseofbooks@gmail.com
   Body: sliced payload text from the source file
 
+![image](https://github.com/user-attachments/assets/533b8d7a-1d83-4d4f-9e74-85010bdeb5e5)
+<img width="673" alt="Screenshot 2025-05-02 at 20 28 17" src="https://github.com/user-attachments/assets/92a8aa86-484f-43a1-9dd0-31d67626317c" />
+![image](https://github.com/user-attachments/assets/edbfee39-3bad-4475-86f5-28e6f70dbd07)
+
 Usage:
 1. Clone or download the script
 2. Replace email and app password inside the code

@@ -24,14 +24,15 @@ Example Output:
 ![image](https://github.com/user-attachments/assets/edbfee39-3bad-4475-86f5-28e6f70dbd07)
 
 Usage:
-1. Clone or download the script: First, grab the script by either cloning the GitHub repository or downloading the .zip file.
+1. Clone or download the script: First, grab the script by either cloning the GitHub repository or downloading the .zip file. ![image](https://github.com/user-attachments/assets/2eec748b-4edb-4fd0-922c-467caf1ff698)
+
 2. Replace email and app password inside the code: In order to authenticate with Gmail's SMTP server, you’ll need to provide a valid email address and an App Password instead of your regular Gmail password. Google requires the use of App Passwords if you have 2-Factor Authentication (2FA) enabled on your Google account. App passwords are a special type of one-time   password designed specifically for use with apps or scripts like Spamurai.py, allowing you to log in to your Google account without exposing your primary password. This adds an extra layer of security and prevents unauthorized access. If you don’t have 2FA enabled, you can use your standard Gmail password, but it’s strongly recommended to enable 2FA for added security.
-3. Run the script: Once your email and app password are configured in the script, simply run it using Python 3.x. The script will handle sending emails in batches, using the credentials you provided, while following the specified timings.
+3. Run the script: Once your email and app password are configured in the script, simply run it using Python. The script will handle sending emails in batches, using the credentials you provided, while following the specified timings.
    
 <img width="519" alt="Screenshot 2025-05-02 at 20 30 07" src="https://github.com/user-attachments/assets/61b3406a-6fe8-4746-a114-107812208575" />
 <img width="304" alt="Screenshot 2025-05-02 at 20 30 23" src="https://github.com/user-attachments/assets/2e00288c-7fb0-48e7-a188-163c8209a119" />
 
-How to generate an App Password:
+How to generate an App Password: https://support.google.com/accounts/answer/185833?hl=en
 1. Go to your Google account settings.
 2. Under "Security," find "App Passwords" and click on it.
 3. Follow the prompts to create a new App Password. Choose “Mail” as the app and “Other” for the device (you can name it anything you want, e.g., “Spamurai”).
@@ -51,11 +52,17 @@ email.message
 time
 math
 
-Built for stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
+Known Issues and Limitations:
+1. No Stop Mechanism: The script does not currently provide an in-built method for stopping or pausing the process once it's initiated. If you need to halt the execution, you will need to manually terminate the process (e.g., by pressing Ctrl + C).
+2. SMTP Provider Limitation: The script is specifically configured to work with Gmail’s SMTP server. To use a different email provider, users will need to modify the SMTP settings accordingly.
 
 Disclaimer:
 This script is intended solely for educational purposes and must be used responsibly. It is strictly prohibited to use the script for pranks, harassment, or to send unsolicited emails to individuals or organizations without their consent. Any misuse of this script may result in legal consequences and violations of the terms of service of email providers, such as Gmail. Engaging in spamming or any other non-consensual activities can lead to account suspensions, blacklisting, or more severe legal actions. It is imperative to ensure that all activities conducted with this script adhere to ethical standards and comply with applicable laws and regulations. This repository and its contents are provided to demonstrate the principles of email flooding and payload delivery systems within controlled, ethical testing environments. The use of this script on live targets or for malicious purposes is strictly prohibited. Users assume full responsibility for any consequences resulting from the use of this script.
 
+__________________________________
+Built for stress testing, spam modeling, phishing sim payloads, or mass mail campaigns.
 Author: Gedeon Koh
 Copyright © 2025
 All rights reserved.
+
+We welcome contributions to improve the functionality and usability of this script. If you have identified bugs, security improvements, or new features, feel free to fork the repository and submit a pull request. Please ensure that all contributions follow ethical guidelines and are in line with the educational nature of the project. If you're unsure about any changes, please open an issue to discuss it first. Contributions should adhere to coding standards and include appropriate documentation for any new features or changes.

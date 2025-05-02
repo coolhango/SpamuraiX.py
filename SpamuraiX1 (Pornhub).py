@@ -3,7 +3,8 @@
 
 # In[2]:
 
-
+# Last Updated: 2 May 2025
+# Copyright © 2024 Gedeon Koh All rights reserved.
 import smtplib
 from email.message import EmailMessage
 import time

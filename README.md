@@ -26,11 +26,28 @@ Example Output:
 Usage:
 1. Clone or download the script
 2. Replace email and app password inside the code
-3. Run with Python 3.x
+3. Run the code
+
+Usage:
+1. Clone or download the script: First, grab the script by either cloning the GitHub repository or downloading the .zip file.
+2. Replace email and app password inside the code: In order to authenticate with Gmail's SMTP server, you’ll need to provide a valid email address and an App Password instead of your regular Gmail password. Google requires the use of App Passwords if you have 2-Factor Authentication (2FA) enabled on your Google account. App passwords are a special type of one-time   password designed specifically for use with apps or scripts like Spamurai.py, allowing you to log in to your Google account without exposing your primary password. This adds an extra layer of security and prevents unauthorized access. If you don’t have 2FA enabled, you can use your standard Gmail password, but it’s strongly recommended to enable 2FA for added security.
+3. Run the script: Once your email and app password are configured in the script, simply run it using Python 3.x. The script will handle sending emails in batches, using the credentials you provided, while following the specified timings.
+   
+<img width="519" alt="Screenshot 2025-05-02 at 20 30 07" src="https://github.com/user-attachments/assets/61b3406a-6fe8-4746-a114-107812208575" />
+<img width="304" alt="Screenshot 2025-05-02 at 20 30 23" src="https://github.com/user-attachments/assets/2e00288c-7fb0-48e7-a188-163c8209a119" />
+
+How to generate an App Password:
+1. Go to your Google account settings.
+2. Under "Security," find "App Passwords" and click on it.
+3. Follow the prompts to create a new App Password. Choose “Mail” as the app and “Other” for the device (you can name it anything you want, e.g., “Spamurai”).
+4. Google will generate a 16-character app password that you’ll input into the script in place of your regular Gmail password.
 
 Emails are automatically sent out in timed waves.
 1. To use a custom file: Replace the Project Gutenberg link with a local file loader
 2. SMTP Settings: Default uses Gmail (smtp.gmail.com, port 587). Change as needed.
+
+<img width="590" alt="Screenshot 2025-05-02 at 20 33 02" src="https://github.com/user-attachments/assets/824275e7-ce72-44ae-a887-ed0a80a423c0" />
+<img width="252" alt="Screenshot 2025-05-02 at 20 32 52" src="https://github.com/user-attachments/assets/2c6be270-a00f-44b7-96b7-943c6f0aa70c" />
 
 Dependencies:
 requests

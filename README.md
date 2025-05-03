@@ -77,3 +77,80 @@ All rights reserved.
 Contributions ✨: We welcome contributions to improve the functionality and usability of this script. If you have identified bugs, security improvements, or new features, feel free to fork the repository and submit a pull request. Please ensure that all contributions follow ethical guidelines and are in line with the educational nature of the project. If you're unsure about any changes, please open an issue to discuss it first. Contributions should adhere to coding standards and include appropriate documentation for any new features or changes.
 
 Other Random Information: No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in reviews and certain other non-commercial uses permitted by copyright law. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Any unauthorized use or dissemination of the results produced by this program is unethical and may result in legal consequences. Any damage, disciplinary actions or death from this material is not in fault in the publisher's or owner.
+__________________________________
+# School Uniform Compliance Directive.py Overview
+This project serves as a tool for automating school uniform compliance reminders at the School of Science and Technology (SST).   The system sends regular reminders to students regarding the strict uniform policy enforced by the school. These emails are     intended to ensure that all students meet the school's dress code and grooming standards without exception, contributing to a professional and disciplined learning environment. The school’s policy requires students to arrive in full formal uniform every Monday. This includes wearing the official SST regulation shirt, trousers or skirt, approved belt and shoes, and ensuring grooming aligns with the institution's standards. Additionally, any unsanctioned social ideologies, including but not limited to Pride-related expressions, are strictly prohibited on school grounds. Any violations of this policy will lead to disciplinary actions.
+
+The main goals of this project are as follows:
+1. Ensure consistent uniform compliance by reminding students about the importance of following the school uniform guidelines consistently.
+2. Automate the reminder process through hourly emails that help students prepare their uniforms and follow school rules.
+3. Enforce strict policy adherence by emphasizing, in each reminder, that violations of the uniform code will result in immediate and formal disciplinary actions, with no appeals allowed.
+
+(Key Features):
+1. Automated email reminders are sent once every hour, ensuring that students stay informed about the uniform policy.
+2. High-impact messaging is used to communicate the seriousness of compliance, leaving no room for excuses.
+3. Compliance tracking can be configured to verify whether reminders are being sent and if the directive is being followed.
+4. Strict disciplinary measures are clearly outlined in the emails, including item confiscation, demerits, privilege suspension, and referral to the disciplinary board.
+
+(Automation Overview) How the System Works:
+1. The system sends automated email reminders every hour to a designated recipient. Each message includes a reminder of the school’s uniform policy and potential consequences for violations. A Python script manages this process using the smtplib library for sending and the email.message library for formatting.
+2. The script checks uniform compliance according to school standards and ensures reminders persist until the student complies.
+
+(Email Template) Each reminder email contains:
+1. A subject line warning about uniform compliance.
+2. An introduction from the school outlining the formal compliance directive.
+3.A breakdown of uniform and grooming requirements.
+4. Consequences for non-compliance, such as confiscation, demerits, and privilege suspension.
+5. A call to action encouraging students to prepare in advance.
+6. A note advising students with genuine issues to contact Student Services beforehand.
+
+(Technical Details) The script includes:
+1. Creation of email messages using the EmailMessage class.
+2. SMTP connection to Gmail’s server with user credentials.
+3. Cron job-based scheduling to send emails hourly.
+4. Basic error handling for reliable operation.
+
+(Running the Script) To run the script locally:
+1. Ensure Python 3 is installed.
+2. Install required libraries using:
+pip install smtplib email
+3. Edit the script with sender, recipient, and app password details.
+- Make the script executable: chmod +x /path/to/your/script.py
+4. What is a Cron Job?
+A cron job is a time-based scheduler in Unix-like systems that automates the execution of scripts at set intervals.
+
+1. How to Set Up a Cron Job on macOS
+Step 1: Open Terminal
+Launch Terminal from Applications > Utilities or by searching "Terminal".
+
+Step 2: Set Default Text Editor to nano
+Set nano as the default editor by entering:
+export VISUAL=nano  
+export EDITOR=nano
+
+Step 3: Make the Python Script Executable
+Run:
+chmod +x "/Users/..."
+
+Step 4: Open Crontab
+Use the command:
+crontab -e
+
+Step 5: Add the Cron Job
+To run the script hourly, add:
+0 * * * * /usr/bin/python3 "/Users/..."
+
+Step 6: Save and Exit
+In nano, press Ctrl + O to save, then Enter, and Ctrl + X to exit.
+
+Step 7: Confirm Cron Job
+Check with:
+crontab -l
+
+Step 8: Test the Script
+Wait until the next hour and check the email inbox to confirm.
+
+_________________________________
+Conclusion
+You now have a functioning hourly cron job on macOS to run the uniform compliance reminder script. Update it at any time using crontab -e.
+_________________________________

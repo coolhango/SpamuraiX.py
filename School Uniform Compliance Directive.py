@@ -64,10 +64,10 @@ def send_uniform_reminder(sender_email, app_password, recipient_email, recipient
         print(f"Unexpected error: {e}")
 
 # === CONFIG ===
-SENDER_EMAIL = 'sstuniformcompliance@gmail.com'
-APP_PASSWORD = 'ldnj vanc vlyx cvyr'
-RECIPIENT_EMAIL = 'officialdailydoseofbooks@gmail.com'
-RECIPIENT_NAME = 'Barna Shogh'
+SENDER_EMAIL = ''
+APP_PASSWORD = ''
+RECIPIENT_EMAIL = ''
+RECIPIENT_NAME = ''
 
 NUM_EMAILS_PER_HOUR = 1
 COUNT = NUM_EMAILS_PER_HOUR

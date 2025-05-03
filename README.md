@@ -79,7 +79,9 @@ Contributions ✨: We welcome contributions to improve the functionality and usa
 Other Random Information: No part of this publication may be reproduced, distributed, or transmitted in any form or by any means, including photocopying, recording, or other electronic or mechanical methods, without the prior written permission of the publisher, except in the case of brief quotations embodied in reviews and certain other non-commercial uses permitted by copyright law. THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHOR OR COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE Any unauthorized use or dissemination of the results produced by this program is unethical and may result in legal consequences. Any damage, disciplinary actions or death from this material is not in fault in the publisher's or owner.
 __________________________________
 # School Uniform Compliance Directive.py Overview
-This project serves as a tool for automating school uniform compliance reminders at the School of Science and Technology (SST).   The system sends regular reminders to students regarding the strict uniform policy enforced by the school. These emails are     intended to ensure that all students meet the school's dress code and grooming standards without exception, contributing to a professional and disciplined learning environment. The school’s policy requires students to arrive in full formal uniform every Monday. This includes wearing the official SST regulation shirt, trousers or skirt, approved belt and shoes, and ensuring grooming aligns with the institution's standards. Additionally, any unsanctioned social ideologies, including but not limited to Pride-related expressions, are strictly prohibited on school grounds. Any violations of this policy will lead to disciplinary actions.
+This project serves as a tool for automating school uniform compliance reminders. The system sends regular reminders to students regarding the strict uniform policy enforced by the school. These emails are intended to ensure that all students meet the school's dress code and grooming standards without exception, contributing to a professional and disciplined learning environment. The school’s policy requires students to arrive in full formal uniform every Monday. This includes wearing the official shirt, trousers or skirt, approved belt and shoes, and ensuring grooming aligns with the institution's standards. Additionally, any unsanctioned social ideologies, including but not limited to Pride-related expressions, are strictly prohibited on school grounds. Any violations of this policy will lead to disciplinary actions. This project is NOT related or affiliated to the School Of Science and Technology, Singapore.
+
+![image](https://github.com/user-attachments/assets/8e67b1b2-36a3-4c39-90d6-925a559d9a54)
 
 The main goals of this project are as follows:
 1. Ensure consistent uniform compliance by reminding students about the importance of following the school uniform guidelines consistently.
@@ -103,6 +105,8 @@ The main goals of this project are as follows:
 4. Consequences for non-compliance, such as confiscation, demerits, and privilege suspension.
 5. A call to action encouraging students to prepare in advance.
 6. A note advising students with genuine issues to contact Student Services beforehand.
+
+![image](https://github.com/user-attachments/assets/0c58a467-614c-4da2-b274-939053fe15e6)
 
 (Technical Details) The script includes:
 1. Creation of email messages using the EmailMessage class.

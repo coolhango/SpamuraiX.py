@@ -64,6 +64,8 @@ RECIPIENT_EMAIL = ''
 RECIPIENT_NAME = ''
 NUM_EMAILS_TO_SEND = 500
 
+print("hello world")
+
 # === Run the function ===
 send_multiple_emails(SENDER_EMAIL, APP_PASSWORD, RECIPIENT_EMAIL, RECIPIENT_NAME, NUM_EMAILS_TO_SEND)
 
